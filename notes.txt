@@ -1,0 +1,292 @@
+Python
+1)It is case sensitive language
+2)  In this if you give any variable therre will  be no spacing  b/w them
+    Ex:- Even num="2"
+3)There will noo command will be start with any number
+
+Datatype:
+1)text-type:-String(str)
+2)Numeric-types:-integer(int),floating (float),complex
+3)Sequence type:- list,tuble and range
+4)Mapping type:-Dictionaries(dict)
+5)Set type:- set, frozenset
+6)Boolean  type:-Bool
+7)Binary type:-bytes, bytearray, memoryview
+
+1)String are in always start and end with " "
+    if there is anything b/w double quatation that is string 
+        name=input("Enter name")
+
+2)int
+    age=int(input("Enter  age"))
+        answer is =23
+        =twenty three (this is wrong  because we give an int form which means  it  only contains  any integer)
+
+3)Floating  point(float)
+    If we have any decimal number that was included in float
+
+4)Evalute(Eval)
+    In it this will evaluate any equationn or calculation like 2+3*2
+    It will also evaluate phython  key words like hello
+
+
+Type Casting:-
+    Conversion of one datatype to another
+
+Two types:-
+    1)Implicit type conversion:-  Where python itself  converts  one datatype to another
+
+    2)Explicit type conversion:- Where the user converts one date to another
+
+Question:-Write a program to swap two variables
+Answer:- x=12
+y=13
+x=y
+temp =x(12)
+y=temp        
+
+            or
+X=12
+Y=13
+X,Y=Y,x
+
+Question:- Write a program to convert a float into integer
+Answer= x=12.4
+        print(type(X))
+        x=int(a)
+        print(type(x))
+Question:-Write a program to take a user input as integer then convert it to float
+Answer= a=int(input("enter a number))
+        print(type(a))
+        a=float(a)
+        print(type(a))
+
+Operators and operands:-
+Operators indicates what operation is to be performed which operands
+indicates on what the action or the operation should be performed.
+
+Typesof operators:-
+1)Arithmetic operations
+2)Comparison operators
+3) Logical operators
+4)Assignment operators
+5)Identity operators
+6)Membership operators
+7)Bitwise operators
+
+
+1)Arithmetic operators:-
+    Addition (+), Subtraction(-), Multiply(*), Division(/), Modulus(%)
+    Floor division(//), Exponentiation(**)  [Power number]
+
+2)Comparison operators:-
+    (<)Less than, (<=)Less than equal to, (==)Equal to, (>)Greater than
+    (>=)Greater than equal to , (!=)not equal to
+
+3)Logical 
+    and  True if both the operands are True
+    or    True if either of the operands if True
+    not     True if operands if false 
+
+4)Assignment operators:-
+    In this we assign value to variable
+
+    =   x=6      x=6
+    +=  x+=6     x=x+6
+    -=  x-=6     x=x-6
+    *=  x*=6     x=x*6
+
+5)Identity
+    Compare items to see of they are the same object with the same memory address
+
+    Type=
+        1)Is
+        2)Is not    
+
+6)Bitwise operators:-
+    Compare the binary numbers
+
+    Type:-
+    1)And(&)
+    2)OR(|)
+    3)XOR(^)
+    4)<< zero fill left shift
+    5)>> zero fill right shift
+
+
+        1)And
+                operation           result
+                0&0                 0
+                1&0                 0
+                0&1                 0
+                1&1                 1
+                            1
+        binary of 10 2|10      0
+                     2|5       1
+                     2|2       0
+
+                10=1010
+
+                            1
+        binary of 8  2|8   0
+                     2|4    0
+                     2|2    0
+
+                8=1000
+
+            print(10&8)
+             10=1010
+              8=1000
+                1000=8
+
+               =>8
+
+        2)OR
+                operation           result
+                    0|0                 0
+                    1|0                 1
+                    0|1                 1
+                    1|1                 1
+
+                    10=1010
+                     8=1000
+                       1010=>10
+
+                       =>10
+
+         3)XOR
+                    operation           result
+                       0^0                  0
+                       1^0                  1
+                       0^1                  1
+                       1^1                  0
+
+                       10=1010
+                        8=1000
+                         =0010            
+
+7)Membership operators:-
+    Used to check the presence of a sequence in object
+
+    Types:-
+        1)In 
+        2)Not in
+
+Conditional statements:-
+    It allows computer to excute a certain condition only if it is true.
+
+    Types:-
+        1)If  
+        2)If-else
+        3)If-elif-else
+        4)Nested 
+        5)Short hand if
+
+    
+    1)If statement:-
+        It is the most fundamental decision making statement
+        Ex:- marks=97
+        if marks>=90
+            print('you will get a phone')
+
+        print("thank you")
+
+        Answer:-you wil get a phone 
+                thank you
+
+    2)If-else:-
+        It is used when you want to give two conditions to the computer
+        If one condition is false the program excutes the another condition
+
+    3)If-elif-else:-
+        It is used when we want to excute multiple conditions
+
+    4)Nested if statement:-
+        In this first we give if statement then we give another if statement on that is nested if statement.
+
+        If(condition 1):-
+         # Executes if condition 1 is true
+
+         If(condition 2):-
+         #Executes if condition 2 is true
+         #conditon 2 ends here
+         # condition 1 ends here
+
+         if 
+         if
+         else
+
+    5)Short-hand if statement:-
+        It is used when only one statement needs to be execued inside the if block
+
+    6)Short-hand if-else statement:-
+
+
+Loops:-
+    Loops means to repeat something in the exact same way
+
+    Type:-
+        1)For Loop
+        2)While Loop
+        3)While true
+        4)Nested Loop
+
+            1)For loop:-
+                In this we want to give range 
+                >starting point ending range
+                >+1 is added to the ending point while defining a range
+                                        +1
+                For(variable) in range(1,6): [ending point is always +1]
+                print(variable)
+
+                If we want gaps b/w them so,
+                For(variable) in range (1,6,2):-
+                print (variable)             (this 2 is gap how much you want b/w them)
+
+             2)While loop:-
+                It executes till the given condition is true
+                    n=0
+                    n<=10
+                    while(condition)              
+                    print(n)
+                    n=n+1
+
+                    Answer=1
+                           2
+                           3
+                           4
+                           5
+
+            3)While true:-
+                It is an infinite loop
+                To break a while true loop break statement is used.
+
+            4)Nested loop:-
+                A loop inside a loop is called as nested loop
+                It is also used to solve pattern problems.
+
+=>For loop with conditional statement:-
+    The use of if-else statements increases the ability of for loop
+    to completes the task effectively. By using if-else statements
+    we can provide with special conditions inside for loop.
+
+ =>Break and continue statement:-
+    Condition statement:-
+        It is used when you want to skip a particular conditions
+
+    Break statement:-
+        It is used when you want to destroy a loop at a certain conditon
+        and come out of the loop
+
+=>String manipulation:-
+    String:-
+        Strings are the combination of number symbols and letter, enclosed inside quotation
+            a="hello"
+            print(a)
+
+    String Method
+    1)length  2)count  3)upper  4)lower     5)index
+    6)capitalize    7)casefold  8)find  9)format    10)centre
+
+Lists:-
+    Is is collection of ordered and mutable data  []            

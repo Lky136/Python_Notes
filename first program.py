@@ -528,7 +528,7 @@ print(a[::-1])
 #Lists
 fruits=["apple","banana","orange","strawberry,12,13"]
 print(fruits)
-print(type(fruits))"""
+print(type(fruits)
 
 #Slicing list
 a=["Ironman","Thor","Catain America","Hulk"]
@@ -538,4 +538,123 @@ print(a[1:])
 print(a[:2])
 print(a[1:3])
 
+#list iteration
+
+#Iteration using for loop
+a=["Hulk","Thor","Catain America","Ironman"]
+for i in a:
+    print(i)
+
+#Iteration  using for loop with range and length function
+a=["Hulk","Thor","Catain America","Ironman"] #It will count the index number
+for i in range(len(a)):
+    print(i)
+    print(a[i])
+    print(a[2])
+#By while loop
+i=0
+while i<len(a):
+    print(a[i])
+    i+=1
+
+
+#Short hand for loop
+a=["Hulk","Thor","Catain America","Ironman"]
+[print(i) for i in a]  #IF we do not write it in square bracket it will show error
+
+#List functions
+a=["Hulk","Thor","Catain America","Ironman"]
+#to find the length of a list
+print(len(a))
+
+#to count an occurance of a particular element
+print(a.count("Hulk"))
+
+#To add to the list
+a.append("Spiderman")  #it will always add any value to the end  of the list
+print(a)
+a.insert(0,"Spiderman") #It will add according to you where you  want to add
+print(a)
+
+#To remove from a list
+a.remove("Hulk")
+print(a)
+
+#TO remove from a certain  location
+print(a.pop(1))
+
+a=["Hulk","Thor","Catain America","Ironman"]
+
+#To create a copy of a list
+b=[]
+print(b)
+b=a.copy()
+print(b)
+
+#To access an element
+print(a.index("Thor"))
+
+#To entend  the  list
+c=["Vision","Superman"]
+a.extend(c)
+print(a)
+
+#To reverse the list
+a.reverse()
+print(a)
+
+#To sort the list  (It will arrange acc. to alphabet)
+a.sort()
+print(a)
+
+#To clear all the data from the list
+a.clear()
+print(a)
+
+#List Comprehension
+l1=[30,40,50,60]
+
+l2=[]
+for i in l1:
+    if i>45:
+        l2.append(i)
+print(l1,"\n",l2)
+
+l3=[i for i in l1]
+print(l3)
+l4=[i for i in l1 if i>45]
+print(l4)
+
+#Problems
+a=["Rose","Rachel","Monica","Joe"]
+
+#Write a program  to swap first and forth element
+a[0],a[3]=a[3],a[0]
+print(a)
+
+#Write a program to add a new value at second position
+a.insert(1,"Lokesh")
+print(a)
+
+#Write a program to delete a value from  3rd position
+a.pop(2)
+print(a)
+
+b=[13,7,12,10]
+
+#Write a program to multiply all the numbers in the list
+mul=1 #here it is 1 because  if we multiply by 0 to something than everything will be 0
+for i in (b):
+    mul*=i
+print(mul)
+
+#Write a program to get the largest number from the list
+b.sort()
+print(b)
+print("The largest value in the given  list is",b[-1])
+
+#Write a program to get the smallest number from the list
+b.sort()
+print(b)
+print("The smallest value in the given  list is",b[0])"""
 
