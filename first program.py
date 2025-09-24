@@ -656,5 +656,73 @@ print("The largest value in the given  list is",b[-1])
 #Write a program to get the smallest number from the list
 b.sort()
 print(b)
-print("The smallest value in the given  list is",b[0])"""
+print("The smallest value in the given  list is",b[0])
+
+#Tuples
+a="apple","mango",1,67
+print(type(a))
+b="Ironmame", #If you want one word to be tuple then put a coma after that word
+print(type(b))
+
+#Slicing and Iteration in Tuples:-
+a="Oneplus","vivo","realme","samsung","redmi"
+print(a[1:3])
+print(a[:3])
+print(a[-1:])
+print(a[::2])  #double :: is used for gaping
+
+#With for loop
+for i in a:
+    print(i)
+
+#along with range and length in for loop
+for i in range (len(a)):
+    print(i)
+    print(a[i])
+
+#With while loop
+i=0
+while i<len(a):
+    print(a[i])
+    i+=1
+
+#Conversion of Tuples and Tuple Functions
+a="Oneplus","vivo","realme"
+print(type(a))
+a=list(a)
+print(type(a))
+a.append("Vivo")
+print(a)
+a=tuple(a)
+print(type(a))
+
+print(a.count("Vivo"))
+print("the index of realme",a.index("realme"))
+
+#Convert the following dictionary into JSON format
+    #Student_data={"name":"David","age":13,"marks":87}
+
+
+#Access the value of age from the fiven data.
+import json
+Student_data={"name": "David","age":13,"marks":87}
+data=json.dumps(Student_data);
+print(data)
+print(type(data))
+
+#Pretty Print following JSON data.
+
+
+
+data1=json.loads(data)
+print(data1["age"])
+
+#Sort the following JSON keys and write them into a file.
+    #Student_data={"name":"David","age":13,"marks":87}"""
+
+#Dictionary
+Employee_data={"name":"Lokesh","age":21,"gender":"male"}
+print(Employee_data["age"])
+print(Employee_data["gender"])
+
 
