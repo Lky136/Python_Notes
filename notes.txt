@@ -289,4 +289,22 @@ Loops:-
     6)capitalize    7)casefold  8)find  9)format    10)centre
 
 Lists:-
-    Is is collection of ordered and mutable data  []            
+    Is is collection of ordered and mutable data  []  
+
+Tuples:-
+    Tuples are the collection of ordered and un-mutable(it is not modified data) data     
+    For tupes no brackets are mandatory. By choice one can use parentheses.
+    The value inside a Tuple is separated by coma(,)     
+    Once created, tuples cannot be changed.
+    Multiple datatypes can be written inside a tuples.
+    In Tuple there is nothing can be add, substract, mul., div.,sort nothing will change
+    If you want to make a word in tuple then put a coma after that word
+        Ex-a="Ironman",
+            print(type(a))
+            It give me it is tuple but without coma(,) it is str
+
+Dictionary:-
+    Dictionary allows user to write the data in the form of keys and values.
+    Dictionaries are enclosed inside curly brackets{}
+    Keys and Values are separated by collection
+    Every key value pair is separated by a coma(,)
